@@ -1,8 +1,8 @@
 [project]
-name = "campus-emergency-platform"
+name = "twinguard-ai"
 version = "0.1.0"
-description = "AI-powered Digital Twin and Emergency Simulation Platform for Academic Buildings"
-authors = [{ name = "Team Nexus" }]
+description = "TwinGuard AI - Digital Twin and Emergency Simulation Platform"
+authors = [{ name = "TwinGuard Team" }]
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
