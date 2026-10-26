@@ -1,0 +1,42 @@
+# Normalize line endings across Windows, macOS, and Linux
+* text=auto eol=lf
+
+# Explicit text files
+*.md text
+*.txt text
+*.json text
+*.toml text
+*.yaml text
+*.yml text
+*.py text diff=python
+*.ts text diff=javascript
+*.tsx text diff=javascript
+*.js text diff=javascript
+*.jsx text diff=javascript
+*.css text
+*.html text
+*.svg text
+
+# Windows scripts
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Shell scripts
+*.sh text eol=lf
+
+# 3D models and binary assets
+*.gltf text
+*.glb binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.woff binary
+*.woff2 binary
+*.ttf binary

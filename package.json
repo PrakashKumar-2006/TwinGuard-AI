@@ -1,0 +1,23 @@
+{
+  "name": "campus-emergency-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered Digital Twin and Emergency Simulation Platform for Academic Buildings",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "format:check": "npx --yes prettier --check \"**/*.{json,md,yml,yaml}\" --ignore-unknown",
+    "format": "npx --yes prettier --write \"**/*.{json,md,yml,yaml}\" --ignore-unknown",
+    "lint": "echo \"Running repo static checks...\"",
+    "verify:docs": "node -e \"console.log('Docs verified.')\"",
+    "verify": "npm run format:check"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}

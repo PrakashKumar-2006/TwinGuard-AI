@@ -1,0 +1,18 @@
+node_modules
+dist
+dist-ssr
+build
+.vite
+.output
+.turbo
+package-lock.json
+*.min.js
+*.min.css
+
+# Python virtual environment and caches
+.venv
+venv
+__pycache__
+.pytest_cache
+.ruff_cache
+.mypy_cache
